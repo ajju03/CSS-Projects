@@ -1,0 +1,19 @@
+.main{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    height:200px;
+    flex:1;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: .3s all ease;
+}
+
+.container:hover{
+    flex:2;
+    background-color: rgb(207, 207, 207);
+}
